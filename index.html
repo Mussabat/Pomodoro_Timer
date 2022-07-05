@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>POMODORO TiMER</h1>
+  <figure class="clock">
+    <div class="mins">00</div>
+    <div>:</div>
+    <div class="secs">00</div>
+    <audio
+      src="mixkit-security-facility-breach-alarm-994.wav"
+
+    ></audio>
+    <svg class="progress-ring" height="120" width="120">
+      <circle
+        class="progress-ring__circle"
+        stroke-width="8"
+        fill="transparent"
+        r="50"
+        cx="60"
+        cy="60"
+      />
+    </svg>
+  </figure>
+
+  <div class="btn-group">
+    <button class="start aa">start focus</button>
+    <button class="reset aa">reset</button>
+    <button class="pause aa">pause</button>
+  </div>
+
+  <form action=".">
+    <label for="" class = "cc">Focus Time</label>
+    <input type="number" value="1" id="focusTime" placeholder="Focus Time"/>
+    <label for="" class = "cc">Break Time</label>
+    <input type="number" value="1" id="breakTime" placeholder="Break Time"/>
+    <button type="submit" class = "aa" id = "bb">Save settings</button>
+  </form>
+  <footer>
+   
+  </footer>
+  <script src = 'script.js'></script>  
+</body>
+</html>
